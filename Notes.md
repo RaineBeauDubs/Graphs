@@ -28,7 +28,28 @@
     - traversals touch every single node
 
   # Bredth-First-Traversals:
-    - Man, I thought I had, at least, a slight grasp on the traversing, but this example is melting my brain D: 
+    - Okay, it's better now, but hard to write in words.
+    - Psudocode Steps:
+      - create a queue
+      - create list of visited nodes
+      - put starting node in queue
+      # while (queue not empty):
+        - pop node out of queue
+        # if not visited:
+          - mark as visited
+          - get adjacent edges and add to queue
+    
+  # Depth-First-Traversals:
+  - uses a stack instead of a queue, of course
+  - Psudocode Steps:
+    - create a stack
+    - create list of visited nodes
+    - put starting node in stack
+    # while (stack not empty):
+      - pop top node out of stack
+      # if not visited:
+        - mark as visited
+        - get adjacent edges and add to stack
 
 
 # Definitions:
